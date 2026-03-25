@@ -3,169 +3,230 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Walkers Builders Limited | Trusted Builders in New Zealand</title>
-  <meta name="description" content="Walkers Builders Limited website concept for building services in New Zealand." />
+  <title>Walkers Builders Limited | Building in New Zealand</title>
+  <meta name="description" content="Walkers Builders Limited provides trusted building services in New Zealand. Fast quotes, professional workmanship, and a polished local presence." />
   <meta name="robots" content="noindex,nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Walkers Builders Limited", "description": "Walkers Builders Limited provides trusted building services in New Zealand. Fast quotes, professional workmanship, and a polished local presence.", "areaServed": "Serving New Zealand.", "telephone": "021 000 0000", "email": "info@walkersbuilders.co.nz", "address": {"@type": "PostalAddress", "addressLocality": "New Zealand", "addressCountry": "NZ"}, "serviceType": "Building"}</script>
 </head>
 <body>
+  <div class="top-strip">
+    <div class="container top-strip-row">
+      <a href="tel:0210000000">Call 021 000 0000</a>
+      <span>Serving New Zealand</span>
+      <a href="mailto:info@walkersbuilders.co.nz">info@walkersbuilders.co.nz</a>
+    </div>
+  </div>
   <header class="site-header">
-    <div class="container header-inner">
-      <div>
-        <a class="brand" href="#top">Walkers Builders Limited</a>
-        <p class="brand-sub">Building - New Zealand</p>
-      </div>
-      <nav class="site-nav">
+    <div class="container header-row">
+      <a class="brand" href="#top">
+        <span class="brand-mark">W</span>
+        <span class="brand-text">Walkers Builders Limited</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
         <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#projects">Projects</a>
+        <a href="#areas">Areas</a>
         <a href="#about">About</a>
-        <a href="#why">Why Choose Us</a>
-        <a href="#gallery">Gallery</a>
+        <a href="#process">Process</a>
         <a href="#contact">Contact</a>
       </nav>
+      <a class="btn btn-accent header-call" href="tel:0210000000">Call Now</a>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero-section">
+    <section id="hero" class="hero">
       <div class="container hero-grid">
-        <div class="hero-copy-wrap">
-          <p class="eyebrow">Website Concept</p>
-          <h1>Trusted Builders in New Zealand</h1>
-          <p class="hero-copy">A clean, trade-aware website concept for Walkers Builders Limited. Built to help a building business look established online, capture more quote requests, and convert website visitors into enquiries.</p>
+        <div class="hero-copy">
+          <p class="eyebrow">Walkers Builders Limited | Building | New Zealand</p>
+          <h1>Local Building in New Zealand you can rely on</h1>
+          <p class="hero-subtitle">Fast response • Clear quotes • Quality workmanship</p>
+          <p class="hero-text">Walkers Builders Limited provides dependable Building services across New Zealand. We keep communication clear, show up on time, and deliver work to a high standard.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Request a Quote</a>
-            <a class="btn btn-secondary" href="tel:000000000">Call 000 000 000</a>
+            <a class="btn btn-primary" href="#contact">Get a Free Quote</a>
+            <a class="btn btn-ghost" href="tel:0210000000">Call 021 000 0000</a>
           </div>
-          <ul class="hero-points">
-            <li>Location-aware headline for New Zealand</li>
-            <li>Trade-specific service structure</li>
-            <li>Fast, mobile-friendly layout</li>
+          <ul class="hero-microproof">
+            <li>Licensed and insured</li>
+            <li>Transparent quotes</li>
+            <li>Local team</li>
+            <li>Responsive support</li>
           </ul>
+          <div class="hero-points">
+            <div class="point-card"><strong>Residential & Commercial</strong><span>Support for homes, renovations, and business properties.</span></div>
+            <div class="point-card"><strong>Straightforward Pricing</strong><span>Clear scope and quote before work starts.</span></div>
+            <div class="point-card"><strong>Work Completed Properly</strong><span>Reliable workmanship and tidy handover.</span></div>
+          </div>
         </div>
-        <aside class="hero-panel">
-          <p class="panel-kicker">Quick Snapshot</p>
-          <h2>Walkers Builders Limited</h2>
-          <div class="panel-grid">
-            <div><span>Trade</span><strong>Building</strong></div>
-            <div><span>Location</span><strong>New Zealand</strong></div>
-            <div><span>Tone</span><strong>Premium Contractor</strong></div>
-            <div><span>Status</span><strong>Ready to customise</strong></div>
+        <aside class="hero-visual">
+          <figure class="hero-image-card">
+            <img src="https://image.pollinations.ai/prompt/builder%20on%20a%20high-end%20renovation%2C%20Walkers%20Builders%20Limited%2C%20New%20Zealand%2C%20new%20zealand%2C%20premium%20trade%20website%20hero%20photo%2C%20natural%20light%2C%20realistic?width=1600&amp;height=1200&amp;seed=8121&amp;nologo=true" alt="Building project in New Zealand" />
+            <figcaption>Walkers Builders Limited serving New Zealand</figcaption>
+          </figure>
+          <div class="hero-contact-card">
+            <h2>Quick Quote Request</h2>
+            <p class="hero-contact-lead">Tell us what you need and we will get back to you quickly.</p>
+            <form class="hero-quick-form" method="get" action="#contact">
+              <label>Name<input type="text" name="name" placeholder="Your name" /></label>
+              <label>Phone<input type="tel" name="phone" placeholder="Best contact number" /></label>
+              <button class="btn btn-accent" type="submit">Request Quote</button>
+            </form>
+            <p><strong>Phone</strong><a href="tel:0210000000">021 000 0000</a></p>
           </div>
         </aside>
       </div>
     </section>
 
+    <section class="section proof-strip" aria-label="Business trust highlights">
+      <div class="container proof-grid">
+        <article class="proof-card"><h3>Call or Enquire Quickly</h3><p>Phone is visible on every section so customers can contact you fast.</p></article>
+        <article class="proof-card"><h3>Service-Focused Layout</h3><p>Customers can find services, projects, and contact details without friction.</p></article>
+        <article class="proof-card"><h3>Built for Conversion</h3><p>Multiple quote CTAs and clear local coverage improve enquiry rates.</p></article>
+      </div>
+    </section>
+
+    <section class="section trust" aria-label="Trust signals">
+      <div class="container badge-grid">
+        <article class="badge-card"><span class="badge-icon">&#9989;</span><h3>Licensed &amp; Insured</h3><p>Professional standards and practical peace of mind.</p></article>
+        <article class="badge-card"><span class="badge-icon">&#127970;</span><h3>Local Business</h3><p>Positioned as a trusted provider for your local market.</p></article>
+        <article class="badge-card"><span class="badge-icon">&#9200;</span><h3>Fast Response</h3><p>Built around quick quoting and easy first contact.</p></article>
+        <article class="badge-card"><span class="badge-icon">&#10004;</span><h3>Quality Workmanship</h3><p>Messaging focused on detail, finish, and reliability.</p></article>
+      </div>
+    </section>
+
     <section id="services" class="section">
       <div class="container">
-        <div class="section-heading">
+        <div class="section-head">
           <p class="section-kicker">Services</p>
-          <h2>Trade-specific services customers immediately understand</h2>
+          <h2>Building services we provide</h2>
+          <p>Practical service options that help customers identify exactly what they need.</p>
         </div>
         <div class="service-grid">
-          <article class="service-card"><span class="service-index">01</span><h3>New Builds</h3><p>Presented as a clear, high-trust service line for customers in New Zealand, with copy built to push enquiries instead of digital tumbleweeds.</p></article>
-          <article class="service-card"><span class="service-index">02</span><h3>Renovations</h3><p>Presented as a clear, high-trust service line for customers in New Zealand, with copy built to push enquiries instead of digital tumbleweeds.</p></article>
-          <article class="service-card"><span class="service-index">03</span><h3>Deck Construction</h3><p>Presented as a clear, high-trust service line for customers in New Zealand, with copy built to push enquiries instead of digital tumbleweeds.</p></article>
-          <article class="service-card"><span class="service-index">04</span><h3>General Building</h3><p>Presented as a clear, high-trust service line for customers in New Zealand, with copy built to push enquiries instead of digital tumbleweeds.</p></article>
+          <article class="service-card"><span class="service-icon">&#9881;</span><h3>Residential Services</h3><p>Professional trade services delivered with clear communication and tidy workmanship.</p></article>
+          <article class="service-card"><span class="service-icon">&#127981;</span><h3>Commercial Services</h3><p>Reliable project support for business premises and commercial maintenance.</p></article>
+          <article class="service-card"><span class="service-icon">&#128295;</span><h3>Repairs and Upgrades</h3><p>Practical repair and upgrade solutions tailored to your property needs.</p></article>
+          <article class="service-card"><span class="service-icon">&#128736;</span><h3>Installations</h3><p>Quality installations completed to current standards and best practice.</p></article>
+          <article class="service-card"><span class="service-icon">&#9200;</span><h3>Fast Response</h3><p>Prompt scheduling and responsive updates from first enquiry to completion.</p></article>
+          <article class="service-card"><span class="service-icon">&#10003;</span><h3>Quality Assurance</h3><p>Work completed with a strong focus on quality, safety, and long-term value.</p></article>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section section-alt">
+    <section id="reviews" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Reviews / Testimonials</p>
+          <h2>Verified customer feedback section</h2>
+          <p>Use approved reviews from real jobs to build trust with new customers.</p>
+        </div>
+        <div class="review-grid">
+          <article class="review-card"><span class="review-ready">Verified review slot</span><p>Ready for an approved Google review or direct client testimonial.</p></article>
+          <article class="review-card"><span class="review-ready">Customer feedback space</span><p>Use this card for a real quote linked to a completed project.</p></article>
+          <article class="review-card"><span class="review-ready">Proof section ready</span><p>Publish only verified feedback to keep trust strong and accurate.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Project Gallery</p>
+          <h2>Recent work examples</h2>
+          <p>Relevant project visuals help customers quickly judge quality and fit.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card"><img loading="lazy" src="https://image.pollinations.ai/prompt/builder%20on%20a%20high-end%20renovation%2C%20Walkers%20Builders%20Limited%2C%20New%20Zealand%2C%20new%20zealand%2C%20realistic%20project%20photography%2C%20premium%20small%20business%20website?width=1280&amp;height=960&amp;seed=4600&amp;nologo=true" alt="Builder on a high-end renovation" /><figcaption><strong>Builder on a high-end renovation</strong><span>Relevant visual direction for a builder website demo.</span></figcaption></figure>
+          <figure class="gallery-card"><img loading="lazy" src="https://image.pollinations.ai/prompt/new%20home%20framing%20project%2C%20Walkers%20Builders%20Limited%2C%20New%20Zealand%2C%20new%20zealand%2C%20realistic%20project%20photography%2C%20premium%20small%20business%20website?width=1280&amp;height=960&amp;seed=4601&amp;nologo=true" alt="New home framing project" /><figcaption><strong>New home framing project</strong><span>Relevant visual direction for a builder website demo.</span></figcaption></figure>
+          <figure class="gallery-card"><img loading="lazy" src="https://image.pollinations.ai/prompt/deck%20construction%20in%20progress%2C%20Walkers%20Builders%20Limited%2C%20New%20Zealand%2C%20new%20zealand%2C%20realistic%20project%20photography%2C%20premium%20small%20business%20website?width=1280&amp;height=960&amp;seed=4602&amp;nologo=true" alt="Deck construction in progress" /><figcaption><strong>Deck construction in progress</strong><span>Relevant visual direction for a builder website demo.</span></figcaption></figure>
+          <figure class="gallery-card"><img loading="lazy" src="https://image.pollinations.ai/prompt/clean%20residential%20construction%20site%2C%20Walkers%20Builders%20Limited%2C%20New%20Zealand%2C%20new%20zealand%2C%20realistic%20project%20photography%2C%20premium%20small%20business%20website?width=1280&amp;height=960&amp;seed=4603&amp;nologo=true" alt="Clean residential construction site" /><figcaption><strong>Clean residential construction site</strong><span>Relevant visual direction for a builder website demo.</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="areas" class="section alt">
+      <div class="container split-panel">
+        <div>
+          <p class="section-kicker">Service Areas</p>
+          <h2>Local coverage for fast and dependable service</h2>
+        </div>
+        <p class="area-text">Serving New Zealand.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
       <div class="container about-grid">
         <div>
           <p class="section-kicker">About</p>
-          <h2>Built to feel like a real local business, not a generic template</h2>
-          <p class="section-copy">Walkers Builders Limited is presented here as a premium contractor building business serving New Zealand. This concept is built to look modern, credible, and easy for customers to trust on mobile or desktop.</p>
+          <h2>Local team focused on reliable results</h2>
         </div>
         <div class="about-card">
-          <h3>What this concept is designed to do</h3>
-          <ul>
-            <li>Show the core services clearly</li>
-            <li>Create trust fast on mobile</li>
-            <li>Make the next step obvious for customers</li>
-          </ul>
+          <p>Walkers Builders Limited is a local building team serving New Zealand. We focus on clear communication, reliable scheduling, and quality workmanship from first quote to final handover.</p>
         </div>
       </div>
     </section>
 
-    <section id="why" class="section">
+    <section id="process" class="section alt">
       <div class="container">
-        <div class="section-heading">
-          <p class="section-kicker">Why Choose Us</p>
-          <h2>Trust signals built around real trade buying behaviour</h2>
-        </div>
-        <div class="why-grid">
-          <article class="why-card"><h3>Structured quoting</h3><p>Clear scope, polished communication, and a site layout that feels established and trustworthy.</p></article>
-          <article class="why-card"><h3>Built for New Zealand</h3><p>Location-aware messaging helps the business look relevant to customers in New Zealand instead of weirdly generic.</p></article>
-          <article class="why-card"><h3>Ready to customise</h3><p>Easy to swap in branding, project photos, real contact details, and exact service areas.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="gallery" class="section section-alt">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-kicker">Visual Direction</p>
-          <h2>Relevant sample imagery matched to your trade</h2>
-          <p class="section-copy">These are AI-generated placeholders to demonstrate a premium visual style. They are replaced with your real project photos during handover.</p>
-        </div>
-        <div class="gallery-grid">
-          <figure class="gallery-card"><img loading="lazy" src="https://image.pollinations.ai/prompt/residential%20construction%20site%2C%20New%20Zealand%2C%20new%20zealand%2C%20professional%20commercial%20photography%2C%20natural%20lighting?width=1440&height=960&seed=3000&nologo=true" alt="Building project sample 1" /><figcaption>Sample visual direction for Walkers Builders Limited (Building)</figcaption></figure>
-          <figure class="gallery-card"><img loading="lazy" src="https://image.pollinations.ai/prompt/new%20house%20framing%2C%20New%20Zealand%2C%20new%20zealand%2C%20professional%20commercial%20photography%2C%20natural%20lighting?width=1440&height=960&seed=3001&nologo=true" alt="Building project sample 2" /><figcaption>Sample visual direction for Walkers Builders Limited (Building)</figcaption></figure>
-          <figure class="gallery-card"><img loading="lazy" src="https://image.pollinations.ai/prompt/builder%20renovation%20work%2C%20New%20Zealand%2C%20new%20zealand%2C%20professional%20commercial%20photography%2C%20natural%20lighting?width=1440&height=960&seed=3002&nologo=true" alt="Building project sample 3" /><figcaption>Sample visual direction for Walkers Builders Limited (Building)</figcaption></figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-kicker">Launch Process</p>
-          <h2>What gets personalised before go-live</h2>
+        <div class="section-head">
+          <p class="section-kicker">How We Work</p>
+          <h2>Simple process from quote to completion</h2>
+          <p>Customers know what happens next at every step.</p>
         </div>
         <div class="process-grid">
-          <article class="process-card"><h3>1. Brand Setup</h3><p>Logo, colour palette, preferred tone, and service area are applied.</p></article>
-          <article class="process-card"><h3>2. Content Finalisation</h3><p>Services, project photos, contact details, and any guarantees are finalised.</p></article>
-          <article class="process-card"><h3>3. Domain + Handover</h3><p>Domain is connected, site launched, and ownership transferred to your account.</p></article>
+          <article class="process-card"><span class="process-step">01</span><h3>Share your job details</h3><p>Call or message with what you need and when you need it done.</p></article>
+          <article class="process-card"><span class="process-step">02</span><h3>Receive a clear quote</h3><p>We confirm scope, timing, and pricing before any work begins.</p></article>
+          <article class="process-card"><span class="process-step">03</span><h3>Work completed professionally</h3><p>The job is delivered safely, cleanly, and to a high standard.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="cta-banner">
+    <section class="section cta-banner">
       <div class="container cta-inner">
         <div>
-          <p class="section-kicker">Ready To Launch</p>
-          <h2>Need a sharper online presence for New Zealand customers?</h2>
-          <p>This concept can be finalised with your branding, domain, service areas, project photos, and contact details.</p>
+          <p class="section-kicker section-kicker-light">Get Started</p>
+          <h2>Need a reliable Building in New Zealand?</h2>
+          <p>Call now or request a quote today. We respond quickly and keep the process straightforward.</p>
         </div>
-        <a class="btn btn-primary" href="#contact">View Contact Section</a>
+        <div class="cta-actions">
+          <a class="btn btn-accent" href="tel:0210000000">Call Now</a>
+          <a class="btn btn-light" href="#contact">Request Quote</a>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section contact">
       <div class="container contact-grid">
-        <div>
-          <div class="section-heading left">
-            <p class="section-kicker">Contact</p>
-            <h2>Simple contact section built for enquiries</h2>
-          </div>
-          <p>Phone: <a href="tel:000000000">000 000 000</a></p>
-          <p>Email: <a href="mailto:hello@example.co.nz">hello@example.co.nz</a></p>
-          <p>Service area: New Zealand and surrounding areas</p>
+        <div class="contact-copy">
+          <p class="section-kicker">Contact</p>
+          <h2>Get in touch for pricing, timelines, and availability</h2>
+          <p><strong>Phone</strong><a href="tel:0210000000">021 000 0000</a></p>
+          <p><strong>Email</strong><a href="mailto:info@walkersbuilders.co.nz">info@walkersbuilders.co.nz</a></p>
+          <p><strong>Service Areas</strong><span>New Zealand</span></p>
         </div>
-        <form class="contact-card">
-          <label>Name<input type="text" placeholder="Your name" /></label>
-          <label>Phone<input type="tel" placeholder="Your phone number" /></label>
-          <label>Project details<textarea rows="5" placeholder="Tell us about the job"></textarea></label>
-          <button type="button" class="btn btn-primary">Send enquiry (demo)</button>
+        <form class="contact-form" method="post" action="#">
+          <label>Name<input type="text" name="name" required /></label>
+          <label>Phone<input type="tel" name="phone" required /></label>
+          <label>Email<input type="email" name="email" required /></label>
+          <label>Service Required<input type="text" name="service_required" required /></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn-primary" type="submit">Request Quote</button>
         </form>
       </div>
     </section>
   </main>
+
   <footer class="site-footer">
-    <div class="container">
-      <p>Demo concept for Walkers Builders Limited. Final launch includes full content update, domain connection, and ownership handover.</p>
+    <div class="container footer-row">
+      <p>&copy; Walkers Builders Limited. Professional Building services in New Zealand.</p>
+      <a href="tel:0210000000">021 000 0000</a>
     </div>
   </footer>
+
+  <a class="mobile-call" href="tel:0210000000">Call 021 000 0000</a>
 </body>
 </html>
